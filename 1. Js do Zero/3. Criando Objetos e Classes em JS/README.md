@@ -24,8 +24,12 @@ Nesta parte, você irá explorar:
 Neste diretório você encontrará:
 - Exercícios práticos para fixar os conceitos.
 - Criação de pequenos projetos usando objetos e classes.
-- Desafios com herança e instância de múltiplos objetos.
 
+### 4. POO em JS
+Neste diretório você encontrará:
+- As definições e sintaxes de todos os pilares de POO.
+- Exercícios práticos para fixar os conceitos de POO.
+- Desafios com herança e instância de múltiplos objetos.
 ---
 
 ## ✅ Objetivo do Módulo
