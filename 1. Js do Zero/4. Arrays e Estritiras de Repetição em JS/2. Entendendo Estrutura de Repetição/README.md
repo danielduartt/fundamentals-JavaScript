@@ -126,12 +126,3 @@ console.log("Soma total:", soma);
 ```
 
 ---
-
-## 🧪 Desafio
-
-1. Crie um array com os números de 1 a 10.
-2. Use um `for` para imprimir apenas os números pares.
-3. Use `for...of` para somar todos os números.
-4. Use `while` para contar regressivamente de 10 até 0.
-
----
