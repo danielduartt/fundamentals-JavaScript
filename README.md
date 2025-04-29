@@ -1,7 +1,5 @@
 # 🚀 Jornada de Aprendizado em JavaScript e Desenvolvimento Web
 
-![Banner](https://via.placeholder.com/800x200?text=JavaScript+Journey)
-
 ## 📚 O que você vai encontrar aqui
 
 Este repositório documenta minha jornada de aprendizado em JavaScript e desenvolvimento web, com projetos práticos e materiais organizados em uma sequência lógica de evolução.
