@@ -1,1 +1,1 @@
-console.log("Sucess"); 
+console.log("OK")
