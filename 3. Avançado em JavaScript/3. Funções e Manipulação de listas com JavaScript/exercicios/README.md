@@ -47,3 +47,110 @@
     > Tudo em uma única cadeia de chamadas.
 
 ---
+
+## ✅ Gabarito – Exercícios de Funções e Manipulação de Listas
+
+### 🔹 **Funções**
+
+1. **Função `saudacao(nome)`**
+
+   ```js
+   function saudacao(nome) {
+     return `Olá, ${nome}!`;
+   }
+   // Teste
+   console.log(saudacao("Lucas")); // Olá, Lucas!
+   ```
+
+2. **Função de ordem superior `operar`**
+
+   ```js
+   function operar(a, b, operacao) {
+     return operacao(a, b);
+   }
+   // Teste
+   console.log(operar(10, 5, (x, y) => x - y)); // 5
+   ```
+
+3. **Reescrevendo como arrow function**
+
+   ```js
+   const dobro = n => n * 2;
+   console.log(dobro(4)); // 8
+   ```
+
+4. **Closure – função `contador`**
+
+   ```js
+   function contador() {
+     let count = 0;
+     return function() {
+       count++;
+       console.log(count);
+     };
+   }
+
+   const incrementar = contador();
+   incrementar(); // 1
+   incrementar(); // 2
+   incrementar(); // 3
+   ```
+
+5. **Usando `call` para alterar o contexto**
+
+   ```js
+   function apresentar() {
+     return `Olá, meu nome é ${this.nome}`;
+   }
+
+   const pessoa1 = { nome: "Ana" };
+   const pessoa2 = { nome: "Carlos" };
+
+   console.log(apresentar.call(pessoa1)); // Olá, meu nome é Ana
+   console.log(apresentar.call(pessoa2)); // Olá, meu nome é Carlos
+   ```
+
+---
+
+### 🔹 **Manipulação de Listas**
+
+6. **`forEach` com array de 1 a 10**
+
+   ```js
+   const numeros = [1,2,3,4,5,6,7,8,9,10];
+   numeros.forEach(num => console.log(num));
+   ```
+
+7. **`filter` – apenas pares**
+
+   ```js
+   const pares = numeros.filter(num => num % 2 === 0);
+   console.log(pares); // [2, 4, 6, 8, 10]
+   ```
+
+8. **`map` – multiplicar por 3**
+
+   ```js
+   const triplicados = numeros.map(num => num * 3);
+   console.log(triplicados); // [3, 6, 9, ..., 30]
+   ```
+
+9. **`reduce` – somar todos os números**
+
+   ```js
+   const soma = numeros.reduce((acc, num) => acc + num, 0);
+   console.log(soma); // 55
+   ```
+
+10. **Encadeando `filter`, `map` e `reduce`**
+
+```js
+const resultado = numeros
+  .filter(num => num > 5)        // [6, 7, 8, 9, 10]
+  .map(num => num * 2)           // [12, 14, 16, 18, 20]
+  .reduce((acc, num) => acc + num, 0); // 80
+
+console.log(resultado); // 80
+```
+
+---
