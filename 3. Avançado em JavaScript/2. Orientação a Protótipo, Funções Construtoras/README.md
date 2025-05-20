@@ -3,7 +3,6 @@
 
 ---
 
-````markdown
 # 🧱 2. Orientação a Protótipo, Funções Construtoras
 
 Bem-vindo à segunda etapa do nosso repositório! Neste módulo, exploramos os fundamentos da **orientação a protótipo** em JavaScript e o uso de **funções construtoras** para criação de objetos reutilizáveis de forma eficiente. 🚀
