@@ -10,27 +10,9 @@ Este repositório documenta minha jornada de aprendizado em JavaScript e desenvo
 |--------|-----------|--------|
 | 📁 **1. JavaScript do Zero** | Fundamentos da linguagem e lógica de programação | ✅ Concluído |
 | 📁 **2. JavaScript para Web** | Integração com HTML, CSS e APIs | ⏳ Em andamento |
-| 🔜 **Módulos Futuros** | Em breve mais conteúdos... | 🚧 Planejado |
+| 📁 **3. Avançado em JavaScript** | Tópicos Avançados em JS | ✅ Concluído |
+| 📁 **4. Criando e Estilizando um Currículo Profissional com JavaScript** | Criando um Currículo com JS | ⏳ Em andamento |
 
-## 🗺️ Mapa de Aprendizado
-
-```
-JavaScript & Web Development
-├── 1. JavaScript do Zero
-│   ├── 1. primeiros Passos
-│   ├── 2. Conhecendo Funções
-│   ├── 3. Criando Objetos e Classes
-│   └── ...
-│
-├── 2. JavaScript para Web
-│   ├── 1. Introdução ao Desenvolvimento WEB
-│   ├── 2. Projeto: Listagem de Pokemon com HTML e CSS
-│   ├── 3. Protocolo HTTP
-│   └── 4. Contruindo uma Pokédex com JS
-│
-└── Módulos Futuros
-    ├── Em planejamento...
-```
 
 ## 🛠️ Tecnologias e Ferramentas
 
