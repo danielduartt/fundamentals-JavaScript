@@ -3,6 +3,19 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+@font-face{
+    font-family: "Nue Machina";
+    src: url("/assets/fonts/neue-machina-regular.otf");
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
 .main{
-    padding: 1rem;
+    margin: .5rem;
+    padding: .5rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
 }

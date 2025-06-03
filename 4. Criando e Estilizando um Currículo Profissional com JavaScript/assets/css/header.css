@@ -13,5 +13,48 @@
 
 .header .title{
     text-align: center;
-    
+    font-family: "Nue Machina";
+}
+
+.information p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5px;
+    font-size: 1.125rem;
+}
+
+.information p::before {
+    content: "";
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right: 0.5rem;
+}
+
+.information .job::before{
+    background-image: url("/assets/img/icons/person.svg");
+}
+
+.information .loc::before{
+    background-image: url("/assets/img/icons/loc.svg");
+
+}
+
+.information .number::before{
+    background-image: url("/assets/img/icons/whats.svg");
+}
+
+.information .email::before{
+    background-image: url("/assets/img/icons/email_icon.svg");
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
 }
